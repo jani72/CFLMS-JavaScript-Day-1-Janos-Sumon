@@ -8,7 +8,6 @@
 
     <script>
         console.log("Hello from the Console");
-        document.write("Hello from the Browser");
         var age = 25;
         team =["Martin","Thomas","Peter","Mathias","Niki"];
         var cars =["Tesla","Audi","Renault","Volvo","Mazda","Fiat","Ferrari"];
@@ -17,7 +16,11 @@
         fruits.pop()
         animals =["Monkey","Horse","Dog"];
         animals.unshift("Cat");
-        
+        var fruits2 ="mango/cherries/kiwi/grapes/pear/peach/orange/lemon";
+        var temp = new Array();
+        temp = fruits2.split('/');
+        document.write(temp.join(" "));
+
     </script>
 
 <script type="text/javascript" src="script.js">
